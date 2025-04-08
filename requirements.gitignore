@@ -1,0 +1,7 @@
+*.mp4
+*.mov
+*.pt
+__pycache__/
+*.pyc
+temp_video.mp4
+requiremensts.txt
