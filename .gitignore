@@ -1,1 +1,19 @@
-env/ *.mp4 *.mov *.pt __pycache__/ *.pyc temp_video.mp4 
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore model and video files (common large file types)
+*.mp4
+*.avi
+*.mkv
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.weights
+
+# OS or IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.env
